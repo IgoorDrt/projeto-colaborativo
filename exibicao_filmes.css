@@ -3,7 +3,28 @@
 
 
 
-h2{
+.linha{
 border-bottom: 3px solid rgb(117, 117, 117);
 
+}
+
+.esquerda{
+    float: left;
+margin-right: 10px;
+padding-bottom: 150px;
+}
+
+
+.direita{
+    float: right;
+margin-right:400px;
+border-left: black solid 2px;
+padding-bottom: 100px;
+}
+
+
+.sinopse{
+    padding-left: 40px;
+    margin-right: 400px;
+    text-align: right;
 }
