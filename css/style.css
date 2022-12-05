@@ -1,0 +1,63 @@
+body{
+    background-color: #e8e8e8;
+    color: #3f3f3f;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: #252525;
+}
+table, th, td{
+    border: 1px solid #444;
+    border-collapse: collapse;
+    padding: 5px 2px;
+}
+table{
+    width: 100%;
+}
+
+.conteudo{
+    text-align: left;
+}
+.destaque{
+    text-align: center;
+}
+th{
+    background-color: #d11616;
+    color: #fff;
+}
+tr:hover{
+    background-color: #f7f5f5;
+}
+
+.btn-editar{
+    background-color: #5bd9ff;
+    color: #fff;
+    padding: 5px 8px;
+    border: 1px solid #5bd9ff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+}
+
+.btn-editar:hover{
+    background-color: #fff;
+    color: #5bd9ff;
+}
+
+.btn-excluir{
+    background-color: #ff4343;
+    color: #fff;
+    padding: 5px 8px;
+    border: 1px solid #ff4343;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+}
+
+.btn-excluir:hover{
+    background-color: #fff;
+    color: #ff4343;
+}
+
