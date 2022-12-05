@@ -56,6 +56,22 @@ tr:hover {
 }
 
 .btn-excluir {
+    background-color: #ff8e43;
+    color: #fff;
+    padding: 5px 8px;
+    border: 1px solid #ff8e43;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+}
+
+.btn-excluir:hover {
+    background-color: #fff;
+    color: #ff8e43;
+}
+
+.btn-adicionar {
     background-color: #ff4343;
     color: #fff;
     padding: 5px 8px;
@@ -66,7 +82,7 @@ tr:hover {
     transition: all .3s ease;
 }
 
-.btn-excluir:hover {
+.btn-adicionar:hover {
     background-color: #fff;
     color: #ff4343;
 }
