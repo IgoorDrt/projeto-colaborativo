@@ -104,10 +104,10 @@ header {
 }
 
 .logo {
-
+    margin-top: -5px;
     float: left;
-    width: 150px;
-    height: 60px;
+    width: 100px;
+    height: 80px;
 }
 
 .logo h2 {
