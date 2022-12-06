@@ -2,24 +2,19 @@ body,
 ul,
 li,
 p {
-  margin: 0px;
+  margin: 0px auto;
   padding: 0px;
   list-style: none;
   font-size: 1.2rem;
   font-family: Arial;
 }
 
-
-/* .header {
-  background-color: rgb(170, 18, 18);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 20px;
-  align-items: center;
-
-
-} */
+header {
+  padding-top: 0 auto;
+  padding: 8px 0;
+  background-color: #3a3a3a;
+  height: 60px;
+}
 
 
 a {
@@ -29,126 +24,13 @@ a {
 }
 
 
-.emprego {
-  display: flex;
-
-
-}
-
-
-.emprego li {
-  margin-left: 10px;
-}
-
-
-.emprego li a {
-  display: block;
-  padding: 10px;
-}
-
-
-.lupa {
-  color: aliceblue;
-}
-
-
-.container {
-  flex-direction: row;
-  width: 1100px;
-  height: 830px;
-  background: white;
-  top: 50%;
-  left: 50%;
-  margin-top: 500px;
-  border-radius: 4px;
-  transform: translate(-50%, -50%);
-  position: relative;
-  box-shadow: 0px 2px 8px #a16666;
-
-
-}
-
-
-
-.preocure {
-  margin: 10px;
-}
-
-
-.tds-empregos {
-  padding: 10px;
-  margin-top: 30px;
-
-
-}
-
-
-.linha {
-  margin: 10px;
-  padding-right: 100px;
-  border: gray solid 2px;
-  background: gray;
-}
-
-
-.textfield {
-  width: 500px;
-  margin-left: 500px;
-  margin-right: 650px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  margin: 10px 0px;
-}
-
-
-.textfield>input {
-  width: 500px;
-  margin-left: 700px;
-  margin-right: 650px;
-  margin-top: 50px;
-  border: none;
-  border-radius: 10px;
-  padding: 15px;
-  background: #272424;
-  color: #be2d2dd3;
-  font-size: 12pt;
-  box-shadow: 0px 10px 40px #00000056;
-  border: 2px solid black;
-  outline: none;
-  box-sizing: border-box;
-}
-
-
-.textfield>label {
-  color: #f0ffffde;
-  margin-bottom: 10px;
-}
-
-
-.textfield>input::placeholder {
-  color: #f0ffff94;
-}
-
-
-.linkedin {
-  float: right;
-  width: 124px;
-  margin-top: -15px;
-}
-
-
-.procure-lupa {
-  float: right;
-}
 
 
 
 .containe {
 
 
- margin: 0 auto;
+  margin: 0 auto;
   padding: 0 2%;
 
 
@@ -167,11 +49,11 @@ header {
 
 
 .logo {
-    margin-top: -14px;
-    float: left;
-    width: 80px;
-    height: 80px;
-  }
+  margin-top: -14px;
+  float: left;
+  width: 80px;
+  height: 80px;
+}
 
 
 
@@ -184,17 +66,17 @@ nav.menu-desktop {
 nav.menu-desktop ul {
 
 
- position: relative;
+  position: relative;
 
 
- list-style: none;
+  list-style: none;
 }
 
 
 nav.menu-desktop li {
 
 
- padding: 0;
+  padding: 0;
   font-weight: bold;
   display: inline-block;
   font-size: 25px;
@@ -204,9 +86,9 @@ nav.menu-desktop li {
 nav.menu-desktop a {
 
 
- text-decoration: none;
+  text-decoration: none;
   color: #FFF3E2;
-  padding: 20px 30px;
+  padding: 50px 5px;
   bottom: 0;
   position: relative;
 
@@ -217,49 +99,38 @@ nav.menu-desktop a {
 nav.menu-desktop a:hover {
 
 
- background-color: #ff0000;
+  background-color: #ff0000;
   transition: background .8s;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
   padding: 3px 30px;
 }
 
 
-.grid
-{
-    width: 427px;
-    position: relative;
-    top: 151px;
-    left: 15px;
-    overflow: hidden;
-    padding: 20px;
+.grid {
+  width: 427px;
+  height: 610px;
+  position: relative;
+  top: 151px;
+  left: 15px;
+  overflow: hidden;
+  padding: 20px;
 }
 
 
 .grid:hover {
 
-    background-color: #d11d1d;
-    transition: background .8s;
-    border-radius:5px;
-    padding: 10px 10px;
-    
+  background-color: #d11d1d;
+  transition: background .8s;
+  border-radius: 5px;
+  padding: 10px 10px;
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.titulo {
+  position: relative;
+  top: 34px;
+  left: 575px;
+  height: 11px;
+  width: 933px;
+  font-size: 100px;
+}
