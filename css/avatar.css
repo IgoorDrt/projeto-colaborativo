@@ -2,6 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .linha {
     border-bottom: 3px solid rgb(117, 117, 117);
 
@@ -19,7 +20,7 @@
     float: right;
     margin-right: 50px;
     border-left: black solid 2px;
-    padding-bottom: 125px;
+    padding-bottom: 104px;
     text-align: center;
 }
 
