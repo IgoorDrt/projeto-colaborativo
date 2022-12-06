@@ -100,7 +100,7 @@ a {
   color: #be2d2dd3;
   font-size: 12pt;
   box-shadow: 0px 10px 40px #00000056;
-  border:2px solid black;
+  border: 2px solid black;
   outline: none;
   box-sizing: border-box;
 }
@@ -113,19 +113,20 @@ a {
 .textfield>input::placeholder {
   color: #f0ffff94;
 }
-.linkedin{
+
+.linkedin {
   float: right;
   width: 124px;
   margin-top: -15px;
 }
 
-.procure-lupa{
+.procure-lupa {
   float: right;
 }
 
 
 .containe {
-    
+
   margin: 0 auto;
   padding: 0 2%;
 
@@ -137,14 +138,14 @@ header {
   background-color: #3a3a3a;
   height: 60px;
 
-  
+
 }
 
 .logo {
-
+  margin-top: -5px;
   float: left;
-  width: 150px;
-  height: 60px;
+  width: 100px;
+  height: 80px;
 }
 
 .logo h2 {
@@ -171,7 +172,7 @@ nav.menu-desktop {
 nav.menu-desktop ul {
 
   position: relative;
- 
+
   list-style: none;
 }
 
