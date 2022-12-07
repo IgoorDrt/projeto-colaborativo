@@ -1,0 +1,130 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linha{
+border-bottom: 3px solid rgb(117, 117, 117);
+
+}
+
+.esquerda{
+    float: left;
+margin-right: 10px;
+padding-bottom: 150px;
+margin-left: 100px;
+}
+
+
+.direita{
+    float: right;
+margin-right:50px;
+border-left: black solid 2px;
+padding-bottom: 29px;
+text-align: center;
+}
+
+
+.sinopse{
+    padding-left: 40px;
+    margin-right: 400px;
+    text-align: left;
+}
+
+.alinhar{
+    display: inline-block;
+    text-align: left;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 500px;
+    text-align: justify;
+    padding-left: 40px;
+    
+}
+
+.container {
+    
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+header {
+    padding-top: 0 auto;
+    padding: 8px 0;
+    background-color: #3a3a3a;
+    height: 60px;
+
+    
+}
+
+.logo {
+    margin-top: -5px;
+    float: left;
+    width: 100px;
+    height: 80px;
+}
+
+.logo h2 {
+
+    font-weight: bold;
+    font-size: 4px;
+    display: inline-block;
+}
+
+.logo a {
+
+
+    text-decoration: none;
+    color: #FFF3E2;
+
+
+}
+
+nav.menu-desktop {
+
+    float: right;
+}
+
+nav.menu-desktop ul {
+
+    position: relative;
+   
+    list-style: none;
+}
+
+nav.menu-desktop li {
+
+    padding: 0;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 25px;
+}
+
+nav.menu-desktop a {
+
+    text-decoration: none;
+    color: #FFF3E2;
+    padding: 20px 30px;
+    bottom: 0;
+    position: relative;
+
+}
+
+nav.menu-desktop a:hover {
+
+    background-color: #ff0000;
+    transition: background .8s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 3px 30px;
+
+}
+.he{
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+}
