@@ -30,47 +30,127 @@
     </div>
     <h2 class="linha"></h2> <!-- nesse h2 está a linha em baixo do título -->
 
-    <center>
-        <h2>cadastros de Filmes </h2>
-    </center>
-    <br><br>
-    <center>
-        <form>
 
-            
-            <label for="name">Título do filme:</label>
-            <input type="text" id="filme">
-           
-            <br><br>
-
-            <label for="nome">Elenco principal:</label>
-            <input type="text" id="elenco">
-            <br><br>
+   <center> <h2>Cadastros de Filmes </h2> </center>
+   
+    <div class="formulario">
 
 
-            <label for="nome">Sinopse:</label>
-            <input type="text" id="Sinopse">
-            <br><br>
+
+        <form class="form" action="">
 
 
-            <th><label for="nome">Produtora do filme:</label>
-                <input type="text" id="Produtora">
-                <br><br>
 
-                <label for="nome">Duração:</label>
-                <input type="text" id="duracão">
-                <br><br>
+            <div class="form-item col-responsive">
 
-                <label for="nome">Indicação etária:</label>
-                <input type="text" id="idade">
 
-                <br><br>
 
-                <div class="button">
-                    <button type="submit">Enviar sua mensagem</button>
-                </div>
+                <input class="input" type="text" name="titulo" required="required" id="name" />
+
+
+
+                <label class="label" for="nome">Título do filme:</label>
+
+
+
+            </div>
+
+
+
+            <div class="form-item col-responsive">
+
+
+
+                <input class="input" type="text" name="Elenco" required="required" id="email" />
+
+
+
+                <label class="label" for="email">Elenco Principal</label>
+
+
+
+            </div>
+
+            <div class="form-item col-responsive">
+
+
+
+                <input class="input" type="text" name="produtora" required="required" id="name" />
+
+
+
+                <label class="label" for="nome">Produtora do filme:</label>
+
+
+
+            </div>
+
+            <div class="form-item col-responsive">
+
+
+
+                <input class="input" type="text" name="produtora" required="required" id="name" />
+
+
+
+                <label class="label" for="nome">Duração do filme:</label>
+
+
+
+            </div>
+
+            <div class="form-item col-responsive">
+
+
+
+                <input class="input" type="text" name="produtora" required="required" id="name" />
+
+
+
+                <label class="label" for="nome">Indicação etária:</label>
+
+
+
+            </div>
+
+          
+            <div class="form-item">
+
+
+
+                <input class="textarea" type="text" name="Sinopse" required="required" id="name" />
+
+
+
+                <label class="label" for="assunto">Sinopse</label>
+
+
+
+            </div>
+
+          <div class="form-item">
+            &nbsp&nbsp  Destaque:<input type="checkbox">
+        </div>
+
+
+            <div class="form-item">
+
+
+
+                <input class="botao" type="submit" value="Enviar" />
+
+
+
+            </div>
+
+
+
         </form>
-    </center>
+
+
+
+    </div>
+    <!--Class Formulario-->
 </body>
 
 </html>
