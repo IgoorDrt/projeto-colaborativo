@@ -7,10 +7,12 @@ p {
   list-style: none;
   font-size: 1.2rem;
   font-family: Arial;
-  overflow-x: hidden;
+  
 }
 
-
+body{
+  overflow-x: hidden;
+}
 
 header {
   padding-top: 0 auto;
@@ -148,11 +150,11 @@ nav.menu-desktop a:hover {
 
 
 .grid {
-  width: 427px;
-  height: 610px;
+  width: 329px;
+  height: 515px;
   position: relative;
   top: 151px;
-  left: 15px;
+  left: 59px;
   overflow: hidden;
   padding: 20px;
 }
